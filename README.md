@@ -63,12 +63,12 @@ R::logger()->notice('A joke on words', $joke);
  * $object->id        = 124;
  * $object->level     = 'notice';
  * $object->message   = 'A joke on words';
+ * $object->context   = '{"duration":"short glance","success":false}';
  * $object->domain    = 'humor';
  * $object->subdomain = 'language';
  * $object->locale    = 'en-GB';
  * $object->url       = 'github.com/daviddeutsch/redbean-psr3/README.md';
  * $object->quality   = 'low';
- * $object->context   = '{"duration":"short glance","success":false}';
  */
 
 
